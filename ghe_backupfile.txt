@@ -1,0 +1,17 @@
+1. Installing of git on the linux instance (yum install git)
+2. Clone backup-utils file inside linux instance (git clone backup-utils)
+3. loading of the *.pem to the .ssh in home directory of Linux instance (GHE instance pem file)
+4. Configure backup.config file file by replacing the hostname and pem certificate path file.
+5. Add the authorized_keys to the ssh key in the GHE instance (it will be in home folder)
+6. Check for connection b/w the backup instance & GHE instance (bin/ghe-host-check)(inside backup-utils directory)
+7. Then if the connection is OK start the backup (bin/ghe-backup)
+8. To restore to another GHE instance(restore instance) generate a new ssh key in linux instance and paste it over 2nd GHE instance(restore instance)
+9. Restore should be done on the backup instance by providing following command {bin/ghe-restore -c (GHE instance ip) }
+
+
+notes: 1)If any command return error as permission denied use "sudo" command.
+       2)The restore instance will be pointing to the primary instance IP, Inorder to resolve this change the hostname(DNS entries) and delete the SSH key of the          primary instance & save settings.
+       3)To reach any instance use respective instance hostname/setup url (In case of site can't be reached)
+       4)Inorder to generate public keys from pem use PuTTygen.
+
+
