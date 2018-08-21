@@ -10,8 +10,8 @@
 
 
 notes: 1)If any command return error as permission denied use "sudo" command.
-       2)The restore instance will be pointing to the primary instance IP, Inorder to resolve this change the hostname(DNS entries) and   delete the SSH key of the primary instance & save settings.
+       2)The restore instance will be pointing to the primary instance IP, Inorder to resolve this change the hostname(DNS entries) and             delete the SSH key of the primary instance & save settings.
        3)To reach any instance use respective instance hostname/setup url (In case of site can't be reached)
        4)Inorder to generate public keys from pem use PuTTygen.
-       5)In backup.config use only one ssh key path at a time(GHE_EXTRA_SSH_OPTS = )  i.e during backup use primary instance ssh key path and while restore use restore instance ssh key path.(*Private key path only)
+       5)In backup.config use only one ssh key path at a time(GHE_EXTRA_SSH_OPTS = )  i.e during backup use primary instance ssh key path            and while restore use restore instance ssh key path.(*Private key path only)
 
