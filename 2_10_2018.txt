@@ -10,6 +10,7 @@ tag, release -> check on these
 backup -> restore
 
 $ git commit -m 'initial commit'
+Commiting again
 $ git add forgotten_file
 $ git commit --amend
 
