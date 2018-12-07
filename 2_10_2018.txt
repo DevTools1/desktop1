@@ -5,7 +5,7 @@
 eclipse, gitbash -> totally clear karo. project history in eclipse.
 
 
-git commit -a -m "message" -> to skip
+git commit -a -m "message" -> to avoid staging
 tag, release -> check on these
 backup -> restore
 
