@@ -3,6 +3,7 @@
 3) SVN -> branches -> file to file branching.
 4) Secret task.
 eclipse, gitbash -> totally clear karo. project history in eclipse.
+Changed
 
 
 git commit -a -m "message" -> to avoid staging
