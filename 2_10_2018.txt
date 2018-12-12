@@ -1,0 +1,32 @@
+1) User training doc.
+2) Status check.
+3) SVN -> branches -> file to file branching.
+4) Secret task.
+eclipse, gitbash -> totally clear karo. project history in eclipse.
+Changed
+
+
+git commit -a -m "message" -> to avoid staging
+tag, release -> check on these
+backup -> restore
+
+$ git commit -m 'initial commit'
+Commiting again
+$ git add forgotten_file
+$ git commit --amend
+
+added now!
+Commited from GHE
+Enjoy!
+=======
+svn to git migration
+
+Commited by sandesh
+
+commited by dev
+edit agaain!
+edited by sandesh
+edited by vishwas
+edited by vishwas
+edited by vishwas
+edited by vishwas
